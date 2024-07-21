@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Etch-a-Sketch</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="titlecontainer">
+      <h1>Etch-a-Sketch!</h1>
+      <p>Please choose a grid size and enjoy your endless creativity!</p>
+    </div>
+
+    <div class="container">
+      <div class="thegrid">
+        <!-- rounded edges, gotta test how the grid itself is gonna look like, might need to make each corner div rounded at its corner specifically -->
+      </div>
+
+      <div class="etchcircles">
+        <!-- 2 circles, just like the og EAS, space-between them so each would sit in its own corner -->
+        <div></div>
+        <div></div>
+      </div>
+    </div>
+
+    <div class="thebuttons">
+      <div></div>
+      <div></div>
+      <!-- here gotta do the ml-auto / mr-auto trick inorder to make the last div take as much size as possible to the other side -->
+      <!-- those divs are supposed to be the buttons -->
+      <div></div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
