@@ -84,6 +84,7 @@ function clearGrid() {
   const gridItems = document.querySelectorAll(".thegrid .grid-item");
   gridItems.forEach((item) => {
     item.style.backgroundColor = "#fff"; // Reset to default color
+    useRandomColor = false;
   });
 }
 
