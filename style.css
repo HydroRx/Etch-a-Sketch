@@ -123,24 +123,28 @@ body {
     justify-content: center;
     gap: 10px; 
     margin: 0;
-  }
-  
-  #colorPicker {
+}
+
+#colorPicker {
     width: 100px; 
     height: 40px; 
     border: none;
     padding: 0;
     cursor: pointer;
     transition: background-color 0.3s ease; 
-  }
-  
-  #selectedColor {
-    font-size: 1rem;
-  }
+}
+
+#selectedColor {
+    display: inline-block;
+    width: 80px; 
+    text-align: left;
+    overflow: hidden;
+    white-space: nowrap;
+}
   
 
 /* Responsive Design */
-@media (max-width: 600px) {
+@media (max-width: 768px) {
     .maincontainer {
         flex-direction: column;
         width: 300px;
@@ -150,7 +154,7 @@ body {
 
     .container {
         width: 300px;
-        min-height: 300px;
+        height: 300px;
     }
 
     .titlecontainer h1 {
